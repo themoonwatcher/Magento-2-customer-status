@@ -1,0 +1,16 @@
+<li class="wk-customsection" data-bind="scope: 'section'">
+    <p data-bind="text: customsection().msg"></p>
+</li>
+<script type="text/x-magento-init">
+  {
+    "*": {
+      "Magento_Ui/js/core/app": {
+        "components": {
+          "section": {
+            "component": "Zaproo_CustomerStatus/js/section"
+          }
+        }
+      }
+    }
+  }
+</script>
